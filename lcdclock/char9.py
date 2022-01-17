@@ -77,9 +77,9 @@ class Char9:
                 ]
             elif c == '1':
                 s_repr = [
-                    [Char9Segment.S0, Char9Segment.S0, Char9Segment.S2],
-                    [Char9Segment.S0, Char9Segment.S0, Char9Segment.S4],
-                    [Char9Segment.S0, Char9Segment.S0, Char9Segment.S3],
+                    [Char9Segment.S0, Char9Segment.S2, Char9Segment.S0],
+                    [Char9Segment.S0, Char9Segment.S4, Char9Segment.S0],
+                    [Char9Segment.S0, Char9Segment.S3, Char9Segment.S0],
                 ]
             elif c == '2':
                 s_repr = [
